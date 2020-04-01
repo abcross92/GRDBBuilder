@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>GRDB-Builder-mac.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>GRDB-Builder.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FA404B0223E35C3C00194BAD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA404B1B23E35CD600194BAD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAA533D323E3742000CB2481</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

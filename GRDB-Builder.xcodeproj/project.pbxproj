@@ -3,18 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0217CB8B4B9256DF67226199 /* Pods_GRDB_Builder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE7FB8765CD5501C3FE36E2 /* Pods_GRDB_Builder.framework */; };
+		D1E98E99028C941E25297704 /* Pods_GRDB_Builder_mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD5BEA9980E4C5F9EB74DB /* Pods_GRDB_Builder_mac.framework */; };
 		FA404B0723E35C3C00194BAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA404B0623E35C3C00194BAD /* AppDelegate.swift */; };
 		FA404B0923E35C3C00194BAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA404B0823E35C3C00194BAD /* ViewController.swift */; };
 		FA404B0C23E35C3C00194BAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA404B0A23E35C3C00194BAD /* Main.storyboard */; };
 		FA404B0E23E35C3D00194BAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA404B0D23E35C3D00194BAD /* Assets.xcassets */; };
 		FA404B1123E35C3D00194BAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA404B0F23E35C3D00194BAD /* LaunchScreen.storyboard */; };
+		FA5CB19B23E35D4500D425D0 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = FA5CB19923E35D4400D425D0 /* sqlite3.c */; };
+		FA5CB19D23E35E3D00D425D0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5CB19C23E35E3D00D425D0 /* Security.framework */; };
+		FA5CB19F23E35E4700D425D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5CB19E23E35E4600D425D0 /* Foundation.framework */; };
+		FAA533D823E3742000CB2481 /* GRDB_Builder_mac.h in Headers */ = {isa = PBXBuildFile; fileRef = FAA533D623E3742000CB2481 /* GRDB_Builder_mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAA533DC23E374B500CB2481 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE8948B23E3688B00033013 /* Security.framework */; };
+		FAA533DD23E374BC00CB2481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE8948923E3688400033013 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FE7FB8765CD5501C3FE36E2 /* Pods_GRDB_Builder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRDB_Builder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17029E61C25EE762F94CD374 /* Pods-GRDB-Builder-mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRDB-Builder-mac.release.xcconfig"; path = "Target Support Files/Pods-GRDB-Builder-mac/Pods-GRDB-Builder-mac.release.xcconfig"; sourceTree = "<group>"; };
+		28FD5BEA9980E4C5F9EB74DB /* Pods_GRDB_Builder_mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRDB_Builder_mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		782E121842A77915739D293A /* Pods-GRDB-Builder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRDB-Builder.debug.xcconfig"; path = "Target Support Files/Pods-GRDB-Builder/Pods-GRDB-Builder.debug.xcconfig"; sourceTree = "<group>"; };
+		83E81ADA5B77643E67029E73 /* Pods-GRDB-Builder-mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRDB-Builder-mac.debug.xcconfig"; path = "Target Support Files/Pods-GRDB-Builder-mac/Pods-GRDB-Builder-mac.debug.xcconfig"; sourceTree = "<group>"; };
+		ADED310F83FD92B35DAE5C7C /* Pods-GRDB-Builder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRDB-Builder.release.xcconfig"; path = "Target Support Files/Pods-GRDB-Builder/Pods-GRDB-Builder.release.xcconfig"; sourceTree = "<group>"; };
 		FA404B0323E35C3C00194BAD /* GRDB-Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GRDB-Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA404B0623E35C3C00194BAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA404B0823E35C3C00194BAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,18 @@
 		FA404B0D23E35C3D00194BAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA404B1023E35C3D00194BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA404B1223E35C3D00194BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA404B1E23E35CD600194BAD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FA5CB19823E35D4400D425D0 /* GRDB-Builder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GRDB-Builder-Bridging-Header.h"; sourceTree = "<group>"; };
+		FA5CB19923E35D4400D425D0 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		FA5CB19A23E35D4400D425D0 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		FA5CB19C23E35E3D00D425D0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FA5CB19E23E35E4600D425D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAA533D423E3742000CB2481 /* GRDB_Builder_mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GRDB_Builder_mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA533D623E3742000CB2481 /* GRDB_Builder_mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRDB_Builder_mac.h; sourceTree = "<group>"; };
+		FAA533D723E3742000CB2481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE8948923E3688400033013 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FAE8948B23E3688B00033013 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		FAE8949223E36A7C00033013 /* GRDB-Builder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GRDB-Builder.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5CB19F23E35E4700D425D0 /* Foundation.framework in Frameworks */,
+				FA5CB19D23E35E3D00D425D0 /* Security.framework in Frameworks */,
+				0217CB8B4B9256DF67226199 /* Pods_GRDB_Builder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA533D123E3742000CB2481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA533DC23E374B500CB2481 /* Security.framework in Frameworks */,
+				FAA533DD23E374BC00CB2481 /* Foundation.framework in Frameworks */,
+				D1E98E99028C941E25297704 /* Pods_GRDB_Builder_mac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2590FE16822D1D1AF63873BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				782E121842A77915739D293A /* Pods-GRDB-Builder.debug.xcconfig */,
+				ADED310F83FD92B35DAE5C7C /* Pods-GRDB-Builder.release.xcconfig */,
+				83E81ADA5B77643E67029E73 /* Pods-GRDB-Builder-mac.debug.xcconfig */,
+				17029E61C25EE762F94CD374 /* Pods-GRDB-Builder-mac.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D11D2798941F32E5C2CDBD9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE8948B23E3688B00033013 /* Security.framework */,
+				FA5CB19E23E35E4600D425D0 /* Foundation.framework */,
+				FAE8948923E3688400033013 /* Foundation.framework */,
+				FA5CB19C23E35E3D00D425D0 /* Security.framework */,
+				0FE7FB8765CD5501C3FE36E2 /* Pods_GRDB_Builder.framework */,
+				28FD5BEA9980E4C5F9EB74DB /* Pods_GRDB_Builder_mac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA404AFA23E35C3C00194BAD = {
 			isa = PBXGroup;
 			children = (
+				FA5CB19923E35D4400D425D0 /* sqlite3.c */,
+				FA5CB19A23E35D4400D425D0 /* sqlite3.h */,
 				FA404B0523E35C3C00194BAD /* GRDB-Builder */,
+				FA404B1D23E35CD600194BAD /* GRDB-Builder-mac */,
+				FAA533D523E3742000CB2481 /* GRDB-Builder-mac */,
 				FA404B0423E35C3C00194BAD /* Products */,
+				2590FE16822D1D1AF63873BA /* Pods */,
+				D11D2798941F32E5C2CDBD9A /* Frameworks */,
+				FA5CB19823E35D4400D425D0 /* GRDB-Builder-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				FA404B0323E35C3C00194BAD /* GRDB-Builder.app */,
+				FAA533D423E3742000CB2481 /* GRDB_Builder_mac.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +125,7 @@
 		FA404B0523E35C3C00194BAD /* GRDB-Builder */ = {
 			isa = PBXGroup;
 			children = (
+				FAE8949223E36A7C00033013 /* GRDB-Builder.entitlements */,
 				FA404B0623E35C3C00194BAD /* AppDelegate.swift */,
 				FA404B0823E35C3C00194BAD /* ViewController.swift */,
 				FA404B0A23E35C3C00194BAD /* Main.storyboard */,
@@ -64,16 +136,46 @@
 			path = "GRDB-Builder";
 			sourceTree = "<group>";
 		};
+		FA404B1D23E35CD600194BAD /* GRDB-Builder-mac */ = {
+			isa = PBXGroup;
+			children = (
+				FA404B1E23E35CD600194BAD /* main.swift */,
+			);
+			path = "GRDB-Builder-mac";
+			sourceTree = "<group>";
+		};
+		FAA533D523E3742000CB2481 /* GRDB-Builder-mac */ = {
+			isa = PBXGroup;
+			children = (
+				FAA533D623E3742000CB2481 /* GRDB_Builder_mac.h */,
+				FAA533D723E3742000CB2481 /* Info.plist */,
+			);
+			path = "GRDB-Builder-mac";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FAA533CF23E3742000CB2481 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA533D823E3742000CB2481 /* GRDB_Builder_mac.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		FA404B0223E35C3C00194BAD /* GRDB-Builder */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA404B1523E35C3D00194BAD /* Build configuration list for PBXNativeTarget "GRDB-Builder" */;
 			buildPhases = (
+				C0A9FBDDC996DB7185C1FAAD /* [CP] Check Pods Manifest.lock */,
 				FA404AFF23E35C3C00194BAD /* Sources */,
 				FA404B0023E35C3C00194BAD /* Frameworks */,
 				FA404B0123E35C3C00194BAD /* Resources */,
+				475E3FAC37A78EC87D330E0D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -83,6 +185,25 @@
 			productName = "GRDB-Builder";
 			productReference = FA404B0323E35C3C00194BAD /* GRDB-Builder.app */;
 			productType = "com.apple.product-type.application";
+		};
+		FAA533D323E3742000CB2481 /* GRDB-Builder-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA533D923E3742000CB2481 /* Build configuration list for PBXNativeTarget "GRDB-Builder-mac" */;
+			buildPhases = (
+				F1C7FDBCAA3D649C046B57D7 /* [CP] Check Pods Manifest.lock */,
+				FAA533CF23E3742000CB2481 /* Headers */,
+				FAA533D023E3742000CB2481 /* Sources */,
+				FAA533D123E3742000CB2481 /* Frameworks */,
+				FAA533D223E3742000CB2481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GRDB-Builder-mac";
+			productName = "GRDB-Builder-mac";
+			productReference = FAA533D423E3742000CB2481 /* GRDB_Builder_mac.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +217,10 @@
 				TargetAttributes = {
 					FA404B0223E35C3C00194BAD = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1110;
+					};
+					FAA533D323E3742000CB2481 = {
+						CreatedOnToolsVersion = 11.1;
 					};
 				};
 			};
@@ -113,6 +238,7 @@
 			projectRoot = "";
 			targets = (
 				FA404B0223E35C3C00194BAD /* GRDB-Builder */,
+				FAA533D323E3742000CB2481 /* GRDB-Builder-mac */,
 			);
 		};
 /* End PBXProject section */
@@ -128,7 +254,78 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAA533D223E3742000CB2481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		475E3FAC37A78EC87D330E0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GRDB-Builder/Pods-GRDB-Builder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GRDB-Builder/Pods-GRDB-Builder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GRDB-Builder/Pods-GRDB-Builder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0A9FBDDC996DB7185C1FAAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GRDB-Builder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C7FDBCAA3D649C046B57D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GRDB-Builder-mac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA404AFF23E35C3C00194BAD /* Sources */ = {
@@ -136,7 +333,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA404B0923E35C3C00194BAD /* ViewController.swift in Sources */,
+				FA5CB19B23E35D4500D425D0 /* sqlite3.c in Sources */,
 				FA404B0723E35C3C00194BAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA533D023E3742000CB2481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,17 +485,52 @@
 		};
 		FA404B1623E35C3D00194BAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782E121842A77915739D293A /* Pods-GRDB-Builder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "GRDB-Builder/GRDB-Builder.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YXVX3AH862;
 				INFOPLIST_FILE = "GRDB-Builder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DSQLITE_HAS_CODEC",
+					"-DGRDBCIPHER",
+					"-DSQLITE_ENABLE_FTS5",
+					"$(inherited)",
+					"-DSQLITE_HAS_CODEC",
+					"-DSQLITE_TEMP_STORE=2",
+					"-DSQLITE_SOUNDEX",
+					"-DSQLITE_THREADSAFE",
+					"-DSQLITE_ENABLE_RTREE",
+					"-DSQLITE_ENABLE_STAT3",
+					"-DSQLITE_ENABLE_STAT4",
+					"-DSQLITE_ENABLE_COLUMN_METADATA",
+					"-DSQLITE_ENABLE_MEMORY_MANAGEMENT",
+					"-DSQLITE_ENABLE_LOAD_EXTENSION",
+					"-DSQLITE_ENABLE_FTS4",
+					"-DSQLITE_ENABLE_FTS4_UNICODE61",
+					"-DSQLITE_ENABLE_FTS3_PARENTHESIS",
+					"-DSQLITE_ENABLE_UNLOCK_NOTIFY",
+					"-DSQLITE_ENABLE_JSON1",
+					"-DSQLITE_ENABLE_FTS5",
+					"-DSQLCIPHER_CRYPTO_CC",
+					"-DHAVE_USLEEP=1",
+					"-DSQLITE_MAX_VARIABLE_NUMBER=99999",
+					"-DNDEBUG",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cross.GRDB-Builder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "GRDB-Builder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,19 +538,134 @@
 		};
 		FA404B1723E35C3D00194BAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADED310F83FD92B35DAE5C7C /* Pods-GRDB-Builder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "GRDB-Builder/GRDB-Builder.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YXVX3AH862;
 				INFOPLIST_FILE = "GRDB-Builder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DSQLITE_HAS_CODEC",
+					"-DGRDBCIPHER",
+					"-DSQLITE_ENABLE_FTS5",
+					"$(inherited)",
+					"-DSQLITE_HAS_CODEC",
+					"-DSQLITE_TEMP_STORE=2",
+					"-DSQLITE_SOUNDEX",
+					"-DSQLITE_THREADSAFE",
+					"-DSQLITE_ENABLE_RTREE",
+					"-DSQLITE_ENABLE_STAT3",
+					"-DSQLITE_ENABLE_STAT4",
+					"-DSQLITE_ENABLE_COLUMN_METADATA",
+					"-DSQLITE_ENABLE_MEMORY_MANAGEMENT",
+					"-DSQLITE_ENABLE_LOAD_EXTENSION",
+					"-DSQLITE_ENABLE_FTS4",
+					"-DSQLITE_ENABLE_FTS4_UNICODE61",
+					"-DSQLITE_ENABLE_FTS3_PARENTHESIS",
+					"-DSQLITE_ENABLE_UNLOCK_NOTIFY",
+					"-DSQLITE_ENABLE_JSON1",
+					"-DSQLITE_ENABLE_FTS5",
+					"-DSQLCIPHER_CRYPTO_CC",
+					"-DHAVE_USLEEP=1",
+					"-DSQLITE_MAX_VARIABLE_NUMBER=99999",
+					"-DNDEBUG",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cross.GRDB-Builder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "GRDB-Builder-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAA533DA23E3742000CB2481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E81ADA5B77643E67029E73 /* Pods-GRDB-Builder-mac.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YXVX3AH862;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"SQLITE_HAS_CODEC=1",
+				);
+				INFOPLIST_FILE = "GRDB-Builder-mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_CFLAGS = (
+					"-DSQLITE_HAS_CODEC",
+					"-DSQLITE_TEMP_STORE=3",
+					"-DSQLCIPHER_CRYPTO_CC",
+					"-DNDEBUG",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cross.GRDB-Builder-mac";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAA533DB23E3742000CB2481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17029E61C25EE762F94CD374 /* Pods-GRDB-Builder-mac.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YXVX3AH862;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"SQLITE_HAS_CODEC=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GRDB-Builder-mac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				OTHER_CFLAGS = (
+					"-DSQLITE_HAS_CODEC",
+					"-DSQLITE_TEMP_STORE=3",
+					"-DSQLCIPHER_CRYPTO_CC",
+					"-DNDEBUG",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cross.GRDB-Builder-mac";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -331,6 +686,15 @@
 			buildConfigurations = (
 				FA404B1623E35C3D00194BAD /* Debug */,
 				FA404B1723E35C3D00194BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA533D923E3742000CB2481 /* Build configuration list for PBXNativeTarget "GRDB-Builder-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA533DA23E3742000CB2481 /* Debug */,
+				FAA533DB23E3742000CB2481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
